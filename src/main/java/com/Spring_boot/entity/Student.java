@@ -15,6 +15,12 @@ public class Student {
     private String firstname;
     private String email;
 
+    public Student(String lastname, String firstname, String email) {
+        super();
+        this.lastname = lastname;
+        this.firstname = firstname;
+        this.email = email;
+    }
 
     public int getId() {
         return id;
